@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: <+artifact.image>
+          image: nginx:<+artifact.image>
           ports:
-            - containerPort: <+pipeline.variables.port>
+            - containerPort: 80
