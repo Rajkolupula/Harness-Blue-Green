@@ -6,7 +6,7 @@ metadata:
     app: nginx-1-25
     version: blue
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
